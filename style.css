@@ -6,13 +6,23 @@ h1 {
 body {
   width: 640px;
   margin: 0 auto;
+  background-image: linear-gradient(grey, rgb(50, 50, 50));
 }
 
+.container{
+ 
+ width: 100vw;
+ height: 100vh;
+ margin: 0 auto;
+ width: 640px;
+  
+}
 .full-img {
   position: relative;
   display: block;
   width: 640px;
   height: 480px;
+  border-top-right-radius: 10px;
 }
 
 .overlay {
@@ -29,10 +39,15 @@ button {
   background: rgba(150,150,150,0.6);
   text-shadow: 1px 1px 1px white;
   border: 1px solid #999;
+  border-radius: 5px;
   position: absolute;
   cursor: pointer;
-  top: 2px;
-  left: 2px;
+  block-size: 50px;
+  inline-size: 81px;
+  top: 5px;
+  left: 5px;
+  font-size: 1rem;
+  letter-spacing: .03rem;
 }
 
 .thumb-bar img {
